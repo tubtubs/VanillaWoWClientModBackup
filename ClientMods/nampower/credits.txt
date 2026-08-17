@@ -1,0 +1,5 @@
+mirror:
+https://github.com/brues-code/nampower
+previous authors include, but not limited to:
+namreeb
+avitasia

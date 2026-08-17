@@ -1,0 +1,3 @@
+https://github.com/balakethelock/SuperWoW
+https://github.com/balakethelock/SuperAPI
+patch-9 is the selection circle patch

@@ -1,0 +1,27 @@
+What's New
+
+    World Markers - place up to 5 animated colored markers at any position in the world, with slash commands, keybindings, a Lua API, and automatic group sync. Requires party/raid leader or assist.
+
+Enhancements
+
+    Performance - Lua runtime optimizations: custom slab allocator, incremental/generational GC that breaks the stop-the-world sweep into ~9ms chunks, faster string interning, and a literal prefilter that kills O(n^2) backtracking in addon combat log parsers
+    Log Sessions - per-character log files now roll over per day and append to the existing file, keeping a day of play in one file. This was making too many files.
+
+Included
+
+    World Markers - animated colored world markers with group sync
+    Performance - SIMD math, faster decompression, file cache, timer calibration, Lua runtime optimizations
+    Transmog Fix - eliminates FPS drops from transmog durability updates
+    Custom Data/ Assets - loose file loading from Data/ and multi-character patch archive names
+    Log Sessions - per-character, per-day log files
+    SuperWoW Heal Text Fix - fixes duplicate floating heal numbers from SuperWoW 1.5
+    Big Cursor - fractional cursor scaling with edge-aware upscaling
+    PNG Screenshots - compressed PNG screenshots on a background thread
+    Minimap Icons - NPC, game object, and quest tracking on the minimap
+    Clickthrough - interactable NPC and object click-through priority
+
+Notes
+
+    Place DLLs next to WoW.exe and add to dlls.txt
+    weirdutils.dll includes all features; individual DLLs are also provided
+    weirdutils_noperf.dll version without performance module for compatibility

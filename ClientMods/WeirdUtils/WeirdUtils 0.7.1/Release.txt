@@ -1,0 +1,9 @@
+Bug Fixes
+
+    World Markers - relaxed overly strict zone checking that could prevent valid markers from appearing
+
+Notes
+
+    Place DLLs next to WoW.exe and add to dlls.txt
+    weirdutils.dll includes all features; individual DLLs are also provided
+    weirdutils_noperf.dll version without weirdperformance for troubleshooting
